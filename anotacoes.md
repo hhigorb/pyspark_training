@@ -40,3 +40,13 @@ SparkContext fornece conexão transparente com o Cluster. Já o SparkSession dá
 ![Formato de dados para Big Data](Screenshot_6.png "Formato de dados para Big Data")
 
 ![ORC ou Parquet](Screenshot_7.png "ORC ou Parquet")
+
+## RDD - Reilient Distributed Datasets
+
+![RDD](Screenshot_8.png "RDD")
+
+![RDD pt2](Screenshot_9.png "RDD pt2")
+
+## Dataset e DataFrame
+
+![Datasets e DF](Screenshot_10.png "Datasets e DF")
