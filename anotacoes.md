@@ -6,7 +6,6 @@ Ele trabalha com clusters, ou seja, o processamento pode ser dividido em várias
 
 ![Spark Tolerância a Falhas](images/Screenshot_1.png "Spark Tolerância a Falhas")
 
-
 ## Particionamento
 
 É possível particionar o processamento em diferentes clusters. Isso ajuda quando há muitos registros para processar. É basicamente dividir os dados em partições (mês a mês, por exemplo).
@@ -29,6 +28,8 @@ Já Wide quando os dados estão em mais de uma partição.
 
 ![Componentes](images/Screenshot_4.png "Componentes")
 
+---
+
 ![Componentes](images/Screenshot_5.png "Componentes")
 
 ## SparkContext e SparkSession
@@ -39,14 +40,30 @@ SparkContext fornece conexão transparente com o Cluster. Já o SparkSession dá
 
 ![Formato de dados para Big Data](images/Screenshot_6.png "Formato de dados para Big Data")
 
+---
+
 ![ORC ou Parquet](images/Screenshot_7.png "ORC ou Parquet")
 
 ## RDD - Reilient Distributed Datasets
 
 ![RDD](images/Screenshot_8.png "RDD")
 
+---
+
 ![RDD pt2](images/Screenshot_9.png "RDD pt2")
 
 ## Dataset e DataFrame
 
 ![Datasets e DF](images/Screenshot_10.png "Datasets e DF")
+
+---
+
+![DataFrames](images/Screenshot_11.png "DataFrames")
+
+---
+
+![DataFrames Tipos de Dados](images/Screenshot_12.png "DataFrames Tipos de Dados")
+
+---
+
+![Schema](images/Screenshot_13.png "Schemaa")
