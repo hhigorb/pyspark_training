@@ -66,4 +66,27 @@ SparkContext fornece conexão transparente com o Cluster. Já o SparkSession dá
 
 ---
 
-![Schema](images/Screenshot_13.png "Schemaa")
+![Schema](images/Screenshot_13.png "Schema")
+
+---
+
+## Spark SQL
+
+![Spark SQL](images/Screenshot_14.png "Spark SQL")
+
+---
+
+![Tabela](images/Screenshot_15.png "Tabela")
+
+---
+
+![Tabela comum e externa](images/Screenshot_16.png "Tabela comum e externa")
+
+---
+
+![Views](images/Screenshot_17.png "Views")
+
+---
+
+![Tipos de Views](images/Screenshot_17.png "Tipos de Views")
+
