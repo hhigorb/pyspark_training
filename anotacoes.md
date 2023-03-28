@@ -88,5 +88,35 @@ SparkContext fornece conexão transparente com o Cluster. Já o SparkSession dá
 
 ---
 
-![Tipos de Views](images/Screenshot_17.png "Tipos de Views")
+![Tipos de Views](images/Screenshot_18.png "Tipos de Views")
 
+---
+
+## Streaming de dados
+
+![Streaming](images/Screenshot_19.png "Streaming")
+
+---
+
+![Streaming x Batch](images/Screenshot_20.png "Streaming x Batch")
+
+---
+
+![Valor dos dados](images/Screenshot_21.png "Valor dos dados")
+
+---
+## Exemplos práticos de utilização de processamento em Streaming
+
+![Exemplos de Casos de Streaming](images/Screenshot_22.png "Exemplos de Casos de Streaming")
+
+---
+
+![Modos de Saída](images/Screenshot_23.png "Modos de Saída")
+
+---
+
+![Trigger](images/Screenshot_24.png "Trigger")
+
+---
+
+![Diretório de Checkpoint](images/Screenshot_25.png "Diretório de Checkpoint")
