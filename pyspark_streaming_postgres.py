@@ -13,20 +13,20 @@ df = spark.readStream.json(path='dados_de_exemplo/streaming_teste/',
 diretorio = 'temp'
 
 
-def update_postgres(df):
+def update_postgres(df, batch_id):
     df.write.format('jdbc') \
         .option('url', 'jdbc:postgresql://postgres-database.chcgqj6jrjf8.us-west-2.rds.amazonaws.com/posts') \
         .option('dbtable', 'posts') \
         .option('user', 'postgres') \
         .option('password', '123456789') \
         .option('driver', 'org.postgresql.Driver') \
-        .option('mode', 'append') \
+        .mode('append') \
         .save()
    
-    stcal = df.writeStream.foreachBath(update_postgres) \
+stcal = df.writeStream.foreachBatch(update_postgres) \
         .outputMode('append') \
         .trigger(processingTime='5 second') \
-        .option('checkopointlocation', diretorio) \
+        .option('checkpointLocation', diretorio) \
         .start()
     
-    stcal.awaitTermination()
+stcal.awaitTermination()
