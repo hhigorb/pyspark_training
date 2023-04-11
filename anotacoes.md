@@ -120,3 +120,27 @@ SparkContext fornece conexão transparente com o Cluster. Já o SparkSession dá
 ---
 
 ![Diretório de Checkpoint](images/Screenshot_25.png "Diretório de Checkpoint")
+
+---
+
+## Particionamento
+
+![Particionamento](images/Screenshot_26.png "Particionamento")
+
+---
+
+![Particionamento](images/Screenshot_27.png "Particionamento")
+
+---
+
+![Bucketing](images/Screenshot_28.png "Bucketing")
+
+---
+
+### Cache ou Persist
+
+![Cache ou Persist](images/Screenshot_29.png "Cache ou Persist")
+
+---
+
+![Storage Level](images/Screenshot_30.png "Storage Level")
