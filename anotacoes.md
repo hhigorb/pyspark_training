@@ -23,7 +23,7 @@ Quando chega a hora de executar um aplicativo Spark, os recursos são solicitado
 
 Ao longo da execução do aplicativo Spark, o Cluster Manager gerencia as máquinas subjacentes nas quais o aplicativo está sendo executado.
 
-![Arquitetura Spark](images/Screenshot_1.png "Arquitetura Spark")
+![Arquitetura Spark](images/arquitetura_spark.png "Arquitetura Spark")
 
 ---
 
