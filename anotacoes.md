@@ -4,7 +4,32 @@ Spark é uma ferramenta para processamento de dados massivo.
 
 Ele trabalha com clusters, ou seja, o processamento pode ser dividido em várias máquinas. Graças a isso, ele é extremamente rápido e eficiente.
 
+## Aplicações da Arquitetura Spark
+
+Vamos entender os componentes de alto nível que fazem parte da arquitetura do aplicativo Apache Spark:
+
+### O Spark Driver
+O Spark Driver é como o banco do motorista de um aplicativo Spark. Ele atua como o controlador da execução de um aplicativo Spark. O driver Spark mantém todos os estados do aplicativo em execução no cluster Spark. Para obter recursos físicos e executar executores, o driver Spark deve ter interface com o gerenciador de cluster.
+
+## Os executores Spark
+As tarefas atribuídas pelo driver Spark são executadas pelos executores Spark. A principal responsabilidade de um executor do Spark é pegar as tarefas atribuídas, executá-las e relatar seu estado de sucesso ou falha e resultados. Cada aplicativo Spark tem seus próprios processos executores separados.
+
+## O gerenciador de clusters
+O gerenciador de cluster mantém um cluster de máquinas que executarão aplicativos Spark. Ele tem seu próprio driver chamado abstrações “master” e “worker”. Eles estão vinculados a máquinas físicas em vez de processos como no Spark.
+
+A máquina, se você observar à esquerda da ilustração da arquitetura Spark, é o Cluster Manager Driver Node. Os círculos são os processos daemon que estão executando e gerenciando todos os nós de trabalho individuais. Estes são apenas os processos do Cluster Manager. Durante esse período, nenhum aplicativo Spark está em execução.
+
+Quando chega a hora de executar um aplicativo Spark, os recursos são solicitados ao gerenciador de cluster para executá-lo. Dependendo da configuração do aplicativo, pode ser um local para executar o driver Spark ou simplesmente recursos para os executores do aplicativo Spark.
+
+Ao longo da execução do aplicativo Spark, o Cluster Manager gerencia as máquinas subjacentes nas quais o aplicativo está sendo executado.
+
+![Arquitetura Spark](images/Screenshot_1.png "Arquitetura Spark")
+
+---
+
 ![Spark Tolerância a Falhas](images/Screenshot_1.png "Spark Tolerância a Falhas")
+
+---
 
 ## Particionamento
 
@@ -12,11 +37,15 @@ Ele trabalha com clusters, ou seja, o processamento pode ser dividido em várias
 
 ![Partições](images/Screenshot_2.png "Partições")
 
+---
+
 ## Lazy Evaluation
 
 O spark utiliza Lazy Evaluation. Isso significa que uma transformação de dados só executada quando uma ação é invocada.
 
 ![Lazy Evaluation](images/Screenshot_3.png "Lazy Evaluation")
+
+---
 
 ## Transformações: Narrow e Wide
 
