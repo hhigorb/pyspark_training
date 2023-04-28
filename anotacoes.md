@@ -1,5 +1,8 @@
 # Spark
 
+## Alguns principais comandos PySpark:
+[PySpark Cheat Sheet](https://www.globalsqa.com/pyspark-cheat-sheet/)
+
 Spark é uma ferramenta para processamento de dados massivo.
 
 Ele trabalha com clusters, ou seja, o processamento pode ser dividido em várias máquinas. Graças a isso, ele é extremamente rápido e eficiente.
