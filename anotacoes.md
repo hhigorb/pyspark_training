@@ -7,6 +7,12 @@ Spark é uma ferramenta para processamento de dados massivo.
 
 Ele trabalha com clusters, ou seja, o processamento pode ser dividido em várias máquinas. Graças a isso, ele é extremamente rápido e eficiente.
 
+Clusters são conjuntos de computadores (também chamados de "nós") que trabalham juntos para realizar uma tarefa ou conjunto de tarefas. Eles são usados para executar processamento intensivo ou lidar com grandes quantidades de dados de forma mais eficiente do que seria possível em um único computador.
+
+Um cluster geralmente é gerenciado por um software que coordena a comunicação entre os nós e divide as tarefas em partes menores que podem ser executadas simultaneamente em diferentes nós. Essa abordagem distribuída permite que o processamento seja feito de forma mais rápida e eficiente, uma vez que as tarefas podem ser executadas em paralelo.
+
+Existem muitos tipos diferentes de clusters, desde pequenos clusters caseiros até grandes clusters de supercomputadores usados para executar cálculos complexos em áreas como pesquisa científica, inteligência artificial, análise de dados e muito mais.
+
 ## Aplicações da Arquitetura Spark
 
 Vamos entender os componentes de alto nível que fazem parte da arquitetura do aplicativo Apache Spark:
